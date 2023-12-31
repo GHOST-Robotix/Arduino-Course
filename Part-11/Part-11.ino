@@ -31,7 +31,7 @@ void loop() {
   }
 
   lcd.setCursor(0, 0);
-  lcd.print("Are sure to turn");
+  lcd.print("R u sure to turn");
   lcd.setCursor(0, 1);
   lcd.print("off the Robot?");
   lcd.blink();
@@ -42,7 +42,8 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print("---           --");
   lcd.blink();
-  delay(20000);
+  delay(1000);
+    lcd.clear();
 
 
 }

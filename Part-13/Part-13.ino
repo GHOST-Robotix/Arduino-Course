@@ -227,6 +227,10 @@ void setup() {
 
    lcd.init();
   lcd.backlight();
+   lcd.setCursor(3, 0);
+  lcd.print("GHOST TECH");
+  delay(3000);
+  lcd.clear();
 }
 
 void loop() {
@@ -243,7 +247,7 @@ void loop() {
       lcd.setCursor(0, 0);
       lcd.print("Press   Start");
     }
-    delay(100);
+    delay(300);
     blink = !blink;
     if (buttonPushed)   {
       initializeGraphics();

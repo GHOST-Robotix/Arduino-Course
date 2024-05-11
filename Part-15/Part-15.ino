@@ -1,5 +1,5 @@
-int trig = 8;
-int echo =7;
+int trig = 5;
+int echo =4;
 
 void setup() {
   // put your setup code here, to run once:
